@@ -101,8 +101,8 @@ section.about-me {
 section.about-me div.aboutme-oval {
   width: 60%;
   margin-left: 20%;
-  width: 600px;
-  height: 400px;
+  width: 700px;
+  height: 460px;
   background: #FFFFFF;
   border-radius: 0px 80px;
 }
@@ -114,9 +114,9 @@ section.about-me div.aboutme-oval h2 {
 }
 section.about-me div.aboutme-oval p {
   color: #202020;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 section.about-me div.aboutme-img-circle img {
   width: 351px;
