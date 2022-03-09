@@ -63,3 +63,22 @@
     }
       
 /*Fin header*/
+
+/*VERSION MOBILE*/
+@media screen and (max-width: 480px){
+
+    header{
+        section.header-titles{
+            padding-top: 46px;
+
+            h1{
+                font-size: 14px;
+            }
+        
+            h2{
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
