@@ -64,6 +64,29 @@
       
 /*Fin header*/
 
+/*VERSION TABLET*/
+@media screen and (max-width: 980px){
+
+    /*Header*/ 
+     header{
+         height: 377px;
+
+         section{
+             width: 60%;
+             padding-top: 50px;
+
+             h1{
+                 font-size: 33px;
+             }
+
+             h2{
+                 font-size: 33px;
+             }
+         }
+     }
+}
+   /*Fin header*/
+
 /*VERSION MOBILE*/
 @media screen and (max-width: 480px){
 

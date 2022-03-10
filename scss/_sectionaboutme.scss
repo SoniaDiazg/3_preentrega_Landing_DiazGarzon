@@ -74,12 +74,24 @@
         margin-bottom: -100px;
     }
 
+    /*VERSION TABLET*/
+    @media screen and (max-width: 980px){
 
+    /*Seccion sobre mi*/
+
+    div.aboutme-oval{
+        overflow-y: auto;
+    }
+}
+      
+
+    
+    
     /*VERSION MOBILE*/
     @media screen and (max-width: 480px){
         
         
-        /*SECCION ABOUT ME*/
+        /*Sobre mi*/
         
         section.about-me{
             width: 100%;
@@ -124,8 +136,9 @@
                     border: 10px solid #F79F8F;
     
                     p{
-                        font-size: 12px;
-                        margin: 4px;
+                        font-size: 11px;
+                        margin: 3px;
+                        padding: 0px;
                     }
                 }
             }
@@ -135,6 +148,4 @@
             height: 112px;
         }
     }
-
-
-/*FIN SECCION ABOUT ME*/
+/*fin seccion sobre mi*/
