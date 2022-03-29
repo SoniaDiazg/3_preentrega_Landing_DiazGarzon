@@ -98,12 +98,19 @@
                 background-color: #ffffff;
                 margin-top: 20px;
                 padding-top: 20px;
+
+                h2 {
+                    text-align: center;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
             }
             .prices-title{
                 font-family: 'Bellota Text';
                 color:#546277;
                 text-align: center; 
-                padding-top: 70px;         
+                padding-top: 70px; 
+                font-size: 32px;        
             }
 
             .div-prices ul{
@@ -175,8 +182,10 @@
             .formulary{
                 display: flex;
                 padding-top: 92px;
-                width: 1193px;
+                width: 100%;
                 justify-content: space-between;
+                padding-right: 50px;
+                padding-left: 50px;
             }
 
             .formulary-img{
@@ -442,10 +451,7 @@
     /*Sección precios*/
 
         .grid-container{
-            display: grid;
-            grid-template-rows: 1fr;
-            grid-template-columns: 1fr;
-            grid-gap:10px;
+            display: flex;
             margin-top: 50px;
             margin-left: 0px;
             margin-right: 0px;
@@ -460,7 +466,9 @@
         }
 
         .img-prices img {
-            margin-top: -436px;
+            width: 270px;
+            margin-top: -176px;
+            object-fit: contain;
         }
 
     /*Fin sección precios*/
@@ -468,6 +476,7 @@
     /*Formulario*/
 
         .formulary{
+            padding: unset;
             padding-top: 20px;
             flex-direction: column;
             align-items: center;
@@ -641,8 +650,21 @@
             width: 235px;
         }
 
+        .prices h2 {
+            font-size: 18px;
+        }
+
         .grid-container{
             font-size: 14px;
+        }
+
+        .grid-item {
+            width: 90%;
+        }
+
+        .prices-title{
+            padding-top: 30px; 
+            font-size: 26px;        
         }
 
     /*Fin sección precios*/

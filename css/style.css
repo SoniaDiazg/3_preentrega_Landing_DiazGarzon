@@ -120,10 +120,16 @@ header section h2 {
 /*Barra navegación*/
 nav {
   padding: 10px;
+  position: sticky !important;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.1);
 }
 nav a {
   text-decoration: none;
   color: #546277;
+  font-weight: 700;
 }
 
 /*Sobre mi*/
@@ -303,12 +309,18 @@ section.about-me div.aboutme-img-circle div p {
   margin-top: 20px;
   padding-top: 20px;
 }
+.prices h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
 
 .prices-title {
   font-family: "Bellota Text";
   color: #546277;
   text-align: center;
   padding-top: 70px;
+  font-size: 32px;
 }
 
 .div-prices ul {
@@ -335,7 +347,7 @@ section.about-me div.aboutme-img-circle div p {
   margin-top: 50px;
 }
 
-h3 {
+h4 {
   font-size: 20px;
 }
 
@@ -344,7 +356,7 @@ h3 {
   width: 45%;
 }
 
-h2 {
+h3 {
   font-size: 24px;
   text-align: center;
   margin-top: 20px;
@@ -376,8 +388,10 @@ h2 {
 .formulary {
   display: flex;
   padding-top: 92px;
-  width: 1193px;
+  width: 100%;
   justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .formulary-img {
@@ -630,10 +644,7 @@ footer {
   /*Fin seccion tratamientos*/
   /*Sección precios*/
   .grid-container {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+    display: flex;
     margin-top: 50px;
     margin-left: 0px;
     margin-right: 0px;
@@ -648,16 +659,15 @@ footer {
   }
 
   .img-prices img {
-    margin-top: -436px;
-  }
-
-  .prices-title{
-    font-size: 33px;
+    width: 270px;
+    margin-top: -176px;
+    object-fit: contain;
   }
 
   /*Fin sección precios*/
   /*Formulario*/
   .formulary {
+    padding: unset;
     padding-top: 20px;
     flex-direction: column;
     align-items: center;
@@ -817,8 +827,21 @@ footer {
     width: 235px;
   }
 
+  .prices h2 {
+    font-size: 18px;
+  }
+
   .grid-container {
     font-size: 14px;
+  }
+
+  .grid-item {
+    width: 90%;
+  }
+
+  .prices-title {
+    padding-top: 30px;
+    font-size: 26px;
   }
 
   /*Fin sección precios*/
